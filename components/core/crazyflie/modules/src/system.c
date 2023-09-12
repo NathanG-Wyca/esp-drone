@@ -72,6 +72,7 @@
 #include "static_mem.h"
 //#include "peer_localization.h"
 #include "cfassert.h"
+#include "mission.h"
 
 #ifndef START_DISARMED
 #define ARM_INIT true
@@ -201,6 +202,7 @@ void systemTask(void *arg)
   //}
   soundInit();
   memInit();
+  missionInit();
 
 #ifdef PROXIMITY_ENABLED
   proximityInit();

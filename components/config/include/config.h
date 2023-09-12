@@ -128,6 +128,7 @@
 #define UDP_TX_TASK_PRI         3
 #define UDP_RX_TASK_PRI         3
 #define UDP_RX2_TASK_PRI        3
+#define MISSION_TASK_PRI        4
 
 // Not compiled
 #if 0
@@ -180,6 +181,7 @@
 #define AI_DECK_GAP_TASK_NAME   "AI-DECK-GAP"
 #define AI_DECK_NINA_TASK_NAME  "AI-DECK-NINA"
 #define UART2_TASK_NAME         "UART2"
+#define MISSION_TASK_NAME         "MISSION"
 
 #define configBASE_STACK_SIZE CONFIG_BASE_STACK_SIZE
 
@@ -218,6 +220,7 @@
 #define ACTIVEMARKER_TASK_STACKSIZE   (1 * configBASE_STACK_SIZE)
 #define AI_DECK_TASK_STACKSIZE        (1 * configBASE_STACK_SIZE)
 #define UART2_TASK_STACKSIZE          (1 * configBASE_STACK_SIZE)
+#define MISSION_TASK_STACKSIZE        (6 * configBASE_STACK_SIZE)
 
 //The radio channel. From 0 to 125
 //TODO:
