@@ -36,6 +36,8 @@
 #include "cf_math.h"
 #include "param.h"
 #include "stm32_legacy.h"
+#include "debug_cf.h"
+
 #include "static_mem.h"
 
 static bool isInit;

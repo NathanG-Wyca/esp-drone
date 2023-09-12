@@ -128,7 +128,7 @@
 #define UDP_TX_TASK_PRI         3
 #define UDP_RX_TASK_PRI         3
 #define UDP_RX2_TASK_PRI        3
-#define MISSION_TASK_PRI        4
+#define MISSION_TASK_PRI        5
 
 // Not compiled
 #if 0
